@@ -3,7 +3,7 @@ Le web est basé avec le scraping, on récolte chaque jours des milliers d'infor
 ```
 pip install scrapy
 ```
-J'ai fait 3 minis Projets, dont un qui est en cours, mais ils sont tous améliorables. Chacun récupère des données et on les envoies sur un fichier j.son .le fichier python se nomme scraper.py et contient le code principal. 
+J'ai fait 3 minis Projets, dont deux qui sont en cours, mais ils sont tous améliorables. Chacun récupère des données et on les envoies sur un fichier j.son .le fichier python se nomme scraper.py et contient le code principal. 
 ```
 scrapy runspider scraper.py -o test.json
 
@@ -21,7 +21,7 @@ Si on veux faire facilement du debug, et avoir le Shell de scrapy, on met dans n
 ```
 inspect_response(response, self)
 ```
-On coutourne aussi l'eeur 703 en changeant l'user agent
+On coutourne aussi l'erreur 703 en changeant l'user agent
 
 ## Projet videoScraper : 
-Récupérer les vidéo Youtube à l'aide avec regex. En cours. https://regex101.com/
+Récupérer les vidéos Youtube à l'aide avec regex. En cours. https://regex101.com/
